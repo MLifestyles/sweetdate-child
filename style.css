@@ -1,0 +1,33 @@
+/*
+Theme Name:     Sweetdate Child
+Theme URI:
+Description:    Child theme for Sweetdate
+Author:         SeventhQueen
+Author URI:     http://seventhqueen.com
+Template:       sweetdate
+Tags: dating, clean, responsive, creative, minimal, modern, landing page, social, buddypress,bbpress, woocommerce
+License: GNU General Public License
+License URI: license.txt
+*/
+@import url("../sweetdate/style.css");
+
+/*
+* Please add your custom styles below
+*/
+
+/* 
+Full width Profile Fields
+*/
+#buddypress div.profile .dl-horizontal dt {
+    width: 100% !important;
+    text-align: left !important;
+}
+#buddypress div.profile .dl-horizontal dd {
+    margin: 0 auto !important;
+}
+
+/* 
+Cometchat Docked theme code
+*/
+<link type="text/css" href="/cometchat/cometchatcss.php" rel="stylesheet" charset="utf-8">
+<script type="text/javascript" src="/cometchat/cometchatjs.php" charset="utf-8"></script>
